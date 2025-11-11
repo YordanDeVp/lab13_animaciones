@@ -45,7 +45,7 @@ fun AnimatedVisibilityScreen() {
                 visible = visible,
                 enter = fadeIn(
                     animationSpec = tween(
-                        durationMillis = 1000
+                        durationMillis = 1500
                     )
                 ),
                 exit = fadeOut(
