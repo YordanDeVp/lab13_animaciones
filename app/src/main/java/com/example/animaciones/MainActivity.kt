@@ -19,7 +19,10 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize()
                 ) {
-                    AnimatedVisibilityScreen()
+
+                    //AnimateSizeAndPositionScreen()
+                    //AnimateColorScreen()
+                    //AnimatedVisibilityScreen()
                 }
             }
         }
