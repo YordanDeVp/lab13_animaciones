@@ -57,4 +57,14 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    //MaterialDesign 3
+    implementation(libs.androidx.material3)
+
+    implementation("androidx.compose.animation:animation:1.7.0")
+    implementation(platform("androidx.compose:compose-bom:2024.09.00"))
+    implementation("androidx.compose.animation:animation")
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.material3:material3")
+
+
 }
