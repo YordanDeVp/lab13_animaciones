@@ -51,7 +51,7 @@ fun AnimateSizeAndPositionScreen() {
         label = "BoxOffsetY"
     )
 
-    // Animación de la posición Izquieda
+    // Animación de la posición Izquieda L
     val offsetL by animateDpAsState(
         targetValue = if (movedL) -120.dp else -0.dp,
         animationSpec = spring(
