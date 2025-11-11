@@ -31,7 +31,7 @@ fun AnimateSizeAndPositionScreen() {
         label = "BoxSize"
     )
 
-    // Animación de la posición horizontal
+    // Animación de la posición horizontal UP
     val offsetX by animateDpAsState(
         targetValue = if (movedRight) 120.dp else 0.dp,
         animationSpec = spring(
