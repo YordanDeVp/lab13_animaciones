@@ -67,4 +67,13 @@ dependencies {
     implementation("androidx.compose.material3:material3")
 
 
+
+    implementation("androidx.compose.material3:material3:1.3.0")
+    implementation("androidx.compose.ui:ui:1.7.0")
+    implementation("androidx.compose.foundation:foundation:1.7.0")
+    implementation("androidx.compose.ui:ui-graphics:1.7.0")
+    implementation("androidx.graphics:graphics-shapes:1.0.0")
+
+    implementation("io.coil-kt:coil-compose:2.6.0")
+    implementation("io.coil-kt:coil-gif:2.6.0")
 }
